@@ -1,0 +1,13 @@
+h3{
+    color: blueviolet;
+    text-align: auto;
+}
+table{
+    width: 50%;
+    border: 3px dotted gray;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+   background: linear-gradient(190deg, #00BFFF,pink); 
+    
+}

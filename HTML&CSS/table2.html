@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            table{
+                width: 50%;
+                text-align: center;
+                margin: 100px auto;
+                border-collapse: collapse;
+            }
+        table,th,td{
+                        border: 1px solid gray;
+            }   
+            th{
+                height: 50px;
+            } 
+            td{
+                height: 30px;
+            }
+            tr:nth-child(even){
+                background-color: orange;
+                color: white;
+            }
+            tr:nth-child(odd){
+                background-color: lightblue;
+                color: white;
+            }
+            tr:hover{
+                background-color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <table >
+            <!--row1-->
+            <tr>
+              <th>PID</th>
+              <th>PNAME</th>
+              <th>PCOST</th>  
+            </tr>
+            <!--row2-->
+            <tr>
+                <td>111</td>
+                <td>Laptop</td>
+                <td>10000</td>
+            </tr>
+            <!--row3-->
+            <tr>
+                <td>222</td>
+                <td>Mobile</td>
+                <td>20000</td>
+            </tr>
+             <!--row4-->
+            <tr>
+                <td>333</td>
+                <td>Watch</td>
+                <td>30000</td>
+            </tr>
+            <!--row5-->
+            <tr>
+                <td>444</td>
+                <td>Tab</td>
+                <td>40000</td>
+            </tr>
+            <!--row6-->
+            <tr>
+                <td>555</td>
+                <td>Desktop</td>
+                <td>50000</td>
+            </tr>
+        </table>
+    </body>

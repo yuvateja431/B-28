@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task3</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            height: 100vh;          
+        }
+        .container__img{
+            flex: 1;
+            background-image: url("./logo.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        .container__info{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        [class^="container__info__"]{
+            font-size: 20px;
+            color: gray;
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <section class="container__img"></section>
+
+        <section class="container__info">
+           <p class="container__info__1">CareerIT</p>
+           <p class="container__info__2">JvavaFullStack</p>
+           <p class="container__info__3">KPHB</p>
+           <p class="container__info__4">Hyderbad</p>
+           <p class="container__info__5">500078</p>
+        </section>
+    </section>
+</body>
+</html>

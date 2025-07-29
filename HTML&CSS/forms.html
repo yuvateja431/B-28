@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+        <link rel="stylesheet" href="forms.css" >
+    </head>
+<body>
+        <fieldset>
+            <legend>REGISTRATION FORM</legend>
+            <table>
+                <!--First Name-->
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="frame" placeholder="enter first name"></td>
+                    <td><span>(***enter valid first name***)</span></td>
+                </tr>
+                <!--last Name-->
+                <tr>
+                    <td>Last name</td>
+                    <td><input type="text" name="lrame" placeholder="enter last name"></td>
+                    <td><span>(***enter valid last name***)</span></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" placeholder="enter email"></td>
+                    <td><span>(***enter valid email name***)</span></td>
+                </tr>
+                <!--Age-->
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" name="age" placeholder="enter age"></td>
+                    <td><span>(***enter valid age***)</span></td>
+                </tr>
+                <tr>
+                    <!--Mobile number-->
+                <tr>
+                    <td>Mobile</td>
+                    <td><input type="tel" name="mob" placeholder="enter Mobile number"></td>
+                    <td><span>(***enter valid  Mobile number ***)</span></td>
+                </tr>
+                <!--password Name-->
+                <tr>
+                    <td>password</td>
+                    <td><input type="password" name="pss" placeholder="enter password"></td>
+                    <td><span>(***enter valid password name***)</span></td>
+                </tr>
+                 <!--Confirm password Name-->
+                <tr>
+                    <td>Confirm password</td>
+                    <td><input type="password" name="cofpss" placeholder=" Confirm password"></td>
+                    <td><span>(***enter valid confirm password***)</span></td>
+                </tr>
+                <!--languages-->
+                <tr>
+                    <td>Languages</td>
+                    <td>
+                        <input type="checkbox" name="Languages" vlaue="c">C Lang
+                        <input type="checkbox" name="Languages" vlaue="c++">C++
+                    </td>
+                    <td><span>(***select at least on Languages***)</span></td>
+                </tr>
+                <tr>
+                     <td></td>
+                    <td>
+                        <input type="checkbox" name="Languages" vlaue="java">Java
+                        <input type="checkbox" name="Languages" vlaue="dotnet">.net
+                    </td>
+                    <td></td>
+                </tr>
+                    <!--Gender-->
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="geder" value="male">Male
+                            <input type="radio" name="geder" value="Feamale">Feamale
+                        </td>
+                        <td><span>(***select gender***)</span></td>
+                    </tr>
+                    <!--Country-->
+                    <tr>
+                        <td>
+                            Country
+                        </td>
+                        <td>
+                            <select name="country">
+                                 <option value="">choose country</option>
+                                 <option value="ind">India</option>
+                                 <option value="us">US</option>
+                                 <option value="uk">UK</option>
+                                 <option value="demmork">Demmork</option>
+                            </select>
+                        </td>
+                        <td>
+                            <span>(***select country***></select></span>
+                        </td>
+                    </tr>
+                    <!--Date-->
+                    <tr>
+                        <td>DOB</td>
+                        <td><input type="date" name="udob"></td>
+                        <td><span>(***select valid date of birth***></span></td>
+                    </tr>
+                    <!--Color-->
+                    <tr>
+                        <td>Fav Color</td>
+                        <td>
+                            <input type="color" name="favcolor">
+                        </td>
+                        <td><span>(***select fav color***></span></td>
+                    </tr>
+                    <!--Address-->
+                    <tr>
+                        <td>Address</td>
+                        <td>
+                            <textarea cols="20" rows="5" name="uaddress"></textarea>
+                        </td>
+                        <td><span>(***enter valid address***></span></td>
+                    </tr>
+                    <!--Submit & Reset Buttons-->
+                    <tr>
+                        <td>
+                            <input type="submit" value="Register">
+                        </td>
+                        <td>
+                        <input type="reset" value="cancel"> 
+                        </td>
+                        <td></td>
+                    </tr>
+
+            </table>
+        </fieldset>
+    </body>
+</html>

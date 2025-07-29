@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table 1</title>
+       <style>
+           table{
+                width: 20%;
+                text-align: justify;
+                margin: 50px auto;
+          
+           }
+           table,th,td{
+                        border: 3px solid green;
+            }
+             th{
+                height: 30px;
+            }  
+             td{
+                height: 30px;
+            } 
+            
+       </style>
+    </head>
+    <body>
+         <table >
+            <!--row1-->
+            <tr>
+                <th rowspan="3">Table 1</th>
+                <th colspan="2">Table 1</th>
+            </tr>
+             <!--row2-->
+            <tr class="c1">
+                <td >Table 2</td>
+                <td >Table 2</td>
+            </tr>
+             <!--row3-->
+            <tr id="id1">
+                <td>Table 2</td>
+                <td>Table 2</td>
+            </tr>
+             <!--row4-->
+            <tr>
+                <td>Table 1</td>
+                <td colspan="2">Table 1.</td>
+            </tr>
+         </table>
+    </body>
+</html>
